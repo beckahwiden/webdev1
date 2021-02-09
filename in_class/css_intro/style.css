@@ -1,0 +1,18 @@
+body {
+    background: purple;
+}
+h1 {
+    color:lightpink;    background:black;
+    text-align: center;
+}
+p {
+    color:blue;
+}
+div {
+    font-size: 60px;
+    background: orange;;
+    padding: 30px;
+    border: 10px dashed blue;
+    margin: 60px;
+    margin-left: 260px;
+}   
