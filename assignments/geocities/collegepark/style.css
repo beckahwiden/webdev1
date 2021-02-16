@@ -1,21 +1,18 @@
-img {
-    width:50%;
-}
-
-
-
 body {
      background-image: url('gifs/flames3.gif');
     /*background: darkgray;*/
 }
 
 header {
-   text-align: center;
     font-size: 5rem;
     font-family: cursive;
     color:red;
 }
 
+.title {
+    text-align: center;
+   
+}
 a:link {
     color: white;
   }
@@ -46,6 +43,7 @@ footer {
 }
 
 .blood {
+    width: 50%;
     position: relative;
     left: 25%;
 }
