@@ -1,0 +1,33 @@
+.top_section {
+    background:lightseagreen
+}
+
+.top_section h1 {
+    text-decoration: underline;
+}
+
+h1 {
+    color: red;
+}
+
+.regular_text {
+    font-size: 30px;
+}
+
+.cool_text {
+    color:magenta;
+    font-family: cursive;
+}
+
+.orange {
+    color:green;
+    font-size: 40px;
+}
+
+.large_text {
+    font-size: 40px;
+}
+
+#page_subtitle {
+    color: brown;
+}

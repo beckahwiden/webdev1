@@ -1,0 +1,42 @@
+h1 {
+    color:orchid;
+}
+
+.px {
+    font-size: 10px;
+}
+
+.container  {
+    font-size: 30px;
+}
+
+.em {
+    background: lightblue;
+    font-size: 1.25em;
+}
+
+.rem {
+    background: pink;
+    font-size: 1rem
+
+}
+.percentage_container {
+    background: lightgrey;
+}
+
+.percent {
+    background: lightgreen;
+    width: 50%;
+    height: 20%;
+}
+
+.vw {
+    background: lightsalmon;
+    width: 50vw
+}
+
+.vh {
+    background:lightcyan;
+    font-size:2vh;
+    border: 2px solid orange;
+}

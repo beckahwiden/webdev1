@@ -1,0 +1,51 @@
+img {
+    width:50%;
+}
+
+
+
+body {
+     background-image: url('gifs/flames3.gif');
+    /*background: darkgray;*/
+}
+
+header {
+   text-align: center;
+    font-size: 5rem;
+    font-family: cursive;
+    color:red;
+}
+
+a:link {
+    color: white;
+  }
+  a:visited {
+    color: grey;
+  }
+    a:hover {
+    color: red;
+  }
+
+.toc {
+    margin-top:0px;
+    text-align: center;
+    color: red;
+}
+
+
+footer {
+    padding-top: 10em;
+}
+
+.banner {
+    width: 100px;
+    padding-left: 20em;
+}
+.gb {    
+    width: 200px;
+}
+
+.blood {
+    position: relative;
+    left: 25%;
+}
