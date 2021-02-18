@@ -43,6 +43,14 @@ a:link {
     color: white;
 }
 
+#BFF2 {
+    text-align: justify;
+    padding: 10px;
+    margin-right: 75%;
+    margin-bottom: 10px;
+    color: white;
+}
+
 #links {
     color: white;
 }
@@ -63,4 +71,11 @@ footer {
     width: 50%;
     position: relative;
     left: 25%;
+}
+
+.dollz {
+    height: 175px;
+    position: fixed;
+    right: 2em;
+    bottom: 2em;
 }
