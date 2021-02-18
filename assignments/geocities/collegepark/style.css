@@ -1,27 +1,24 @@
 body {
      background-image: url('gifs/flames3.gif');
     /*background: darkgray;*/
-    }
+}
+
+a:link {
+    color: white;
+}
+a:visited {
+    color: grey;
+}
+a:hover {
+    color: red;
+}
 
 header {
     font-size: 5rem;
     font-family: cursive;
     color:red;
-}
-.title {
     text-align: center;
-   
 }
-
-a:link {
-    color: white;
-  }
-  a:visited {
-    color: grey;
-  }
-    a:hover {
-    color: red;
-  }
 
 .toc {
     margin-top:0px;
@@ -53,7 +50,14 @@ a:link {
 
 #links {
     color: white;
+    font-family:'Courier New', Courier, monospace;
 }
+
+#gb {    
+    color: white;
+    font-family: cursive;
+}
+
 
 footer {
     padding-top: 10em;
@@ -61,10 +65,7 @@ footer {
 
 .banner {
     width: 100px;
-    padding-left: 20em;
-}
-#gb {    
-    color: white;
+    padding-left: 40%;
 }
 
 .blood {
