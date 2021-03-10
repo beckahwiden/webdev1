@@ -6,8 +6,8 @@
     background: lightgray;
     border: 2px solid black;
     position: relative;
-    left: 50vh;
-    top: 50vw;
+    left: 30vw;
+    top: 30vh;
 }
 
 .close_button {
