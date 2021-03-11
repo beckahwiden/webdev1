@@ -6,9 +6,10 @@
 
 
 .container {
-    background:orange;
-    border: solid black;
+    background:pink;
+    /* border: solid black; */
     border-radius: 20px;
+    box-shadow: 4px 4px 5px black;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -17,11 +18,11 @@
     width: 50vmin;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .row1 {
-    background: purple;
+    /* background: purple; */
     padding: 1px;
     margin: 1% 1%;
     position: relative;
@@ -31,34 +32,79 @@
     flex-shrink: 1;
 }
 
-.box1 {
-    background: lightgreen;
-    padding: 1vh;
-    margin: 1vh 1vh;
-    border: solid crimson;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: row;
-    flex-shrink: 1;
-}
 .row2 {
-    background: purple;
+    /* background: red; */
     padding: 1px;
-    margin: 10vh 1vh;
+    margin: 1% 1%;
     position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     flex-shrink: 1;
 }
 
-.box2 {
+.row3 {
+    padding: 1px;
+    margin: 1% 1%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-shrink: 1;
+}
+
+.row4 {
+    padding: 1px;
+    margin: 1% 1%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-shrink: 1;
+}
+
+.row5 {
+    padding: 1px;
+    margin: 1% 1%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-shrink: 1;
+}
+
+.box {
     background: lightgreen;
+    height: 6vh;
+    width: 6vw;
     padding: 1vh;
     margin: 1vh 1vh;
-    border: solid crimson;
+    /* border: solid crimson; */
     border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-shrink: 1;
+}
+
+.e {
+    background: rebeccapurple;
+}
+.f {
+    background: plum;
+}
+.g {
+    background: thistle;
+}
+.h {
+    background: lavenderblush;
+}
+.i {
+    background: mistyrose;
+}
+.heart {
+    background: white;
+    background-image: url(/assignments/smartphone/istockphoto-1005589422-612x612.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
