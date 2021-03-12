@@ -71,15 +71,15 @@
 .x {background: rgb(221,176,203);}
 
 .heart {
-    background: pink;
+    background:pink;
     background-image: url();
-    background-position: center center;
+    background-size: cover;
 }
 
+
 .box:hover {
-    background: lightslategray;
-}
+    background: gainsboro;}
 .heart:hover {
-    background:darkred;
-}
+    /* background:darkred; */
+    background-image: url("assignments\smartphone\kisspng-clip-art-heart-image-portable-network-graphics-tra-heart-cluster-transparent-amp-png-clipart-free-d-5cfb59ae146ad0.3471558615599763660836.png");}
 
