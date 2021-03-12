@@ -3,8 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-
 .container {
     background:pink;
     /* border: solid black; */
@@ -14,59 +12,14 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 80vmin;
-    width: 50vmin;
+    padding: 4em 1em;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-
-.row1 {
-    /* background: purple; */
-    padding: 1px;
-    margin: 1% 1%;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-shrink: 1;
-}
-
-.row2 {
-    /* background: red; */
-    padding: 1px;
-    margin: 1% 1%;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-shrink: 1;
-}
-
-.row3 {
-    padding: 1px;
-    margin: 1% 1%;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-shrink: 1;
-}
-
-.row4 {
-    padding: 1px;
-    margin: 1% 1%;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-shrink: 1;
-}
-
-.row5 {
-    padding: 1px;
-    margin: 1% 1%;
-    position: relative;
+.row {
+    /* padding: 1px; */
+    margin: 1%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -75,9 +28,10 @@
 
 .box {
     background: lightgreen;
-    height: 6vh;
+    /* height: 6vh;
     width: 6vw;
-    padding: 1vh;
+    padding: 1vh; */
+    padding: 5vmin;
     margin: 1vh 1vh;
     /* border: solid crimson; */
     border-radius: 5px;
@@ -87,24 +41,45 @@
     flex-shrink: 1;
 }
 
-.e {
-    background: rebeccapurple;
-}
-.f {
-    background: plum;
-}
-.g {
-    background: thistle;
-}
-.h {
-    background: lavenderblush;
-}
-.i {
-    background: mistyrose;
-}
+.a {background: rgb(221,68,167);}
+.b {background: rgb(226,113,167);}
+.c {background: rgb(232,139,195);}
+.d {background: rgb(238,166,209);}
+.e {background: rgb(243,194,224);}
+
+.f {background: rgb(204,81,155);}
+.g {background: rgb(212,106,169);}
+.h {background: rgb(221,132,185);}
+.i {background: rgb(229,160,201);}
+.j {background: rgb(238,190,218);}
+
+.k {background: rgb(187,74,142);}
+.l {background: rgb(196,99,158);}
+.m {background: rgb(221,154,194);}
+.n {background: rgb(232,185,213);}
+
+.o {background: rgb(170,68,129);}
+.p {background: rgb(184,92,147);}
+.q {background: rgb(196,119,166);}
+.r {background: rgb(212,148,186);}
+.s {background: rgb(226,181,208);}
+
+.t {background: rgb(153,61,116);}
+.u {background: rgb(170,85,136);}
+.v {background: rgb(187,112,157);}
+.w {background: rgb(204,142,179);}
+.x {background: rgb(221,176,203);}
+
 .heart {
-    background: white;
-    background-image: url(/assignments/smartphone/istockphoto-1005589422-612x612.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background: pink;
+    background-image: url();
+    background-position: center center;
 }
+
+.box:hover {
+    background: lightslategray;
+}
+.heart:hover {
+    background:darkred;
+}
+
