@@ -5,7 +5,6 @@
 }
 .container {
     background:pink;
-    /* border: solid black; */
     border-radius: 20px;
     box-shadow: 4px 4px 5px black;
     position: fixed;
@@ -18,7 +17,6 @@
     justify-content: center;
 }
 .row {
-    /* padding: 1px; */
     margin: 1%;
     display: flex;
     flex-direction: row;
@@ -28,12 +26,8 @@
 
 .box {
     background: lightgreen;
-    /* height: 6vh;
-    width: 6vw;
-    padding: 1vh; */
     padding: 5vmin;
     margin: 1vh 1vh;
-    /* border: solid crimson; */
     border-radius: 5px;
     box-shadow: 2px 2px 5px black;
     display: flex;
@@ -70,11 +64,7 @@
 .w {background: rgb(204,142,179);}
 .x {background: rgb(221,176,203);}
 
-.heart {
-    background:pink;
-    /* background-image: url(https://raw.githubusercontent.com/beckahwiden/webdev1/main/assignments/smartphone/kisspng-clip-art-heart-image-portable-network-graphics-tra-heart-cluster-transparent-amp-png-clipart-free-d-5cfb59ae146ad0.3471558615599763660836.png); */
-    background-size: cover;
-}
+.heart {background:pink;}
 
 
 .box:hover {background: mistyrose;}
