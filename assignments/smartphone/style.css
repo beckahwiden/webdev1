@@ -72,14 +72,15 @@
 
 .heart {
     background:pink;
-    background-image: url();
+    /* background-image: url(https://raw.githubusercontent.com/beckahwiden/webdev1/main/assignments/smartphone/kisspng-clip-art-heart-image-portable-network-graphics-tra-heart-cluster-transparent-amp-png-clipart-free-d-5cfb59ae146ad0.3471558615599763660836.png); */
     background-size: cover;
 }
 
 
-.box:hover {
-    background: gainsboro;}
+.box:hover {background: mistyrose;}
 .heart:hover {
-    /* background:darkred; */
-    background-image: url("assignments\smartphone\kisspng-clip-art-heart-image-portable-network-graphics-tra-heart-cluster-transparent-amp-png-clipart-free-d-5cfb59ae146ad0.3471558615599763660836.png");}
+    background: pink;
+    background-image: url(https://raw.githubusercontent.com/beckahwiden/webdev1/main/assignments/smartphone/kisspng-clip-art-heart-image-portable-network-graphics-tra-heart-cluster-transparent-amp-png-clipart-free-d-5cfb59ae146ad0.3471558615599763660836.png);
+    background-size: cover;
+}
 
