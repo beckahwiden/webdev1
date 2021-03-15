@@ -62,7 +62,7 @@
 .u {background: rgb(170,85,136);}
 .v {background: rgb(187,112,157);}
 .w {background: rgb(204,142,179);}
-.x {background: rgb(221,176,203);}
+.back {background: rgb(221,176,203);}
 
 .heart {background:pink;}
 
@@ -72,5 +72,8 @@
     background: pink;
     background-image: url(https://raw.githubusercontent.com/beckahwiden/webdev1/main/assignments/smartphone/kisspng-clip-art-heart-image-portable-network-graphics-tra-heart-cluster-transparent-amp-png-clipart-free-d-5cfb59ae146ad0.3471558615599763660836.png);
     background-size: cover;
+}
+.back:hover {
+    
 }
 
