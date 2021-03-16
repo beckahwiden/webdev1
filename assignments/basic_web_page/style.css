@@ -91,3 +91,14 @@ footer {
     margin-bottom: 0px;
     margin-right: 0px;
 }
+
+.home {
+    background: pink;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+a:link {color:black;}
+a:visited {color:black;}
+a:hover {color:pink;}
+a:active {color:pink;}
