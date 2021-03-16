@@ -70,12 +70,12 @@
 .box:hover {background: mistyrose;}
 .heart:hover {
     background: pink;
-    background-image: url(/WebDev1/assignments/smartphone/kisspng-clip-art-heart-image-portable-network-graphics-tra-heart-cluster-transparent-amp-png-clipart-free-d-5cfb59ae146ad0.3471558615599763660836.png);
+    background-image: url(https://beckahwiden.github.io/webdev1/assignments/smartphone/kisspng-clip-art-heart-image-portable-network-graphics-tra-heart-cluster-transparent-amp-png-clipart-free-d-5cfb59ae146ad0.3471558615599763660836.png);
     background-size: cover;
 }
 .back:hover {
     background: pink;
-    background-image: url(/WebDev1/assignments/smartphone/back.png);
+    background-image: url(https://beckahwiden.github.io/webdev1/assignments/smartphone/back.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
