@@ -17,7 +17,7 @@ footer {
 }
 
 h1 {
-    color: white;
+    color: lightgray;
     font-family: 'Cormorant Unicase', serif;
     text-shadow: 1px 2px 3px lightpink;
     margin: .5em;
@@ -26,7 +26,7 @@ h1 {
 h1:hover {color: hotpink;}
 
 a {
-    color: white;
+    color: lightgray;
     font-family: 'Della Respira', serif;
     font-size: 1.5em;
     text-decoration: none;
