@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {background-image: url(/WebDev1/assets/backroundstarblink.gif);}
+body {background-image: url(/WebDev1/assets/backroundstarblink.gif); color: black;}
 
 nav {margin: 2em;}
 
