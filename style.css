@@ -3,10 +3,70 @@
     margin: 0;
     box-sizing: border-box;
 }
-h1:hover {
-    color: blue;
+
+body {background-image: url(/WebDev1/assets/backroundstarblink.gif);}
+
+nav {margin: 2em;}
+
+footer {
+    font-size: 18px;
+    text-align: right;
+    color: hotpink;
+    font-family: 'Cormorant Unicase', serif;
+    margin-right: 10vw;
 }
 
-p:hover {
-    background-color: yellow;
+h1 {
+    color: white;
+    font-family: 'Cormorant Unicase', serif;
+    text-shadow: 1px 2px 3px lightpink;
+    margin: .5em;
+}
+
+h1:hover {color: hotpink;}
+
+a {
+    color: white;
+    font-family: 'Della Respira', serif;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+p {
+    color: white;
+    margin-right: 25%;
+}
+
+.cool {
+    font-size: 1em;
+    width: 1em;
+}
+
+.caption {
+    color: white;
+    border: 3px solid white;
+    padding: 3px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Della Respira', serif;
+    text-align: justify;
+}
+
+.back {
+    font-size: 10px;
+    text-align: right;
+    color: hotpink;
+    margin-top: 90vh;
+    margin-right: 10vw;
+}
+
+#cat {
+    max-width: 100%;
+    max-height: 50%
 }
