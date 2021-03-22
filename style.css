@@ -6,7 +6,7 @@
 
 body {
     background-color: black;
-    background-image: url(/WebDev1/assets/backroundstarblink.gif);
+    background-image: url(assets/backroundstarblink.gif);
 }
 
 nav {margin: 2em;}
