@@ -74,7 +74,7 @@
     color: rgba(0,0,0,0);
     animation-name: back;
     animation-delay: 6s;
-    animation-duration: 1s;
+    animation-duration: 120s;
     animation-fill-mode: forwards;
   }
 
