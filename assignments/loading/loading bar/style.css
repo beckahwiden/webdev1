@@ -37,7 +37,7 @@
 
   @keyframes back {
       0% {left: 0px;}
-      98% {left: 210px; background: white; padding: 2px; border: black;}
+      98% {left: 210px; background: white; padding: 2px; border: 1px solid white;}
       100% {top: 25px; left: 210px; background: red; border: 1px solid black; padding: 2px;}
   }
 
@@ -74,7 +74,7 @@
     color: rgba(0,0,0,0);
     animation-name: back;
     animation-delay: 6s;
-    animation-duration: 120s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
   }
 
