@@ -42,7 +42,7 @@
   }
 
   .bar {
-    margin: 100px;
+    margin: 10vh;
     width: 204px;
     height: 20px;
     background-color: red;
@@ -51,7 +51,7 @@
   } 
 
   .loading {
-      margin: 100px;
+      margin: 10vh;
       width: 20px;
       height: 20px;
       background-color: black;
@@ -62,19 +62,19 @@
       top: 0px;
       animation-name: move;
       animation-delay: 5s;
-      animation-duration: 120s;
+      animation-duration: 120;
       animation-fill-mode: forwards;
   }
 
   .back {
-    margin: 100px;
+    margin: 10vh;
     position: absolute;
     left: 0px;
     top: 20px;
     color: rgba(0,0,0,0);
     animation-name: back;
     animation-delay: 6s;
-    animation-duration: 120s;
+    animation-duration: 120;
     animation-fill-mode: forwards;
   }
 
