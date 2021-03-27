@@ -62,7 +62,7 @@
       top: 0px;
       animation-name: move;
       animation-delay: 5s;
-      animation-duration: 120;
+      animation-duration: 120s;
       animation-fill-mode: forwards;
   }
 
