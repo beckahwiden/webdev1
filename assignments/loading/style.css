@@ -12,7 +12,7 @@ body {
 
 a:link {color: gray; text-decoration: none;}
 a:visited {color: dimgray;}
-a:hover {color: violet; font-size: 1.1em;}
+a:hover {color: plum; font-size: 1.1em;}
 
 #some {font-weight: bold; font-size: 1.2em;}
 #no {margin: 10vmin;}
