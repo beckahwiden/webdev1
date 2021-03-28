@@ -5,7 +5,7 @@
 }
 
   @keyframes move {
-      0%  {left: 0px;  background-color: black; border: 1px dashed red;}
+      0%  {left: 0px;  background-color: gray; border: 1px dashed palevioletred;}
       10% {left: 20px;}
       15% {left: 20px;}
       30% {left: 50px;}
@@ -28,25 +28,25 @@
       91% {left: 172px;}
       92% {left: 172px;}
       95% {left: 173px;}
-      96% {left: 174px; color: black; background-color: black;}
+      96% {left: 174px; color: gray; background-color: gray;}
       97% {left: 176px;}
-      98% {left: 178px; color: orangered; background-color: orangered;}
-      99% {left: 178px; border: 1px dashed red;}
-      100% {left: 179px; color: black; background-color: red; border: 1px dashed lightsalmon;}
+      98% {left: 178px; color: pink; background-color: pink;}
+      99% {left: 178px; border: 1px dashed palevioletred;}
+      100% {left: 179px; color: black; background-color: palevioletred; border: 1px dashed pink;}
   }
 
   @keyframes back {
       0% {left: 0px;}
       98% {left: 210px; background: white; padding: 2px; border: 1px solid white;}
-      100% {top: 25px; left: 210px; background: red; border: 1px solid black; padding: 2px;}
+      100% {top: 25px; left: 210px; background: palevioletred; border: 1px solid gray; padding: 2px;}
   }
 
   .bar {
     margin: 10vh;
     width: 204px;
     height: 20px;
-    background-color: red;
-    border: 2px solid black;
+    background-color: palevioletred;
+    border: 2px solid gray;
     position: relative;
   } 
 
@@ -54,8 +54,9 @@
       margin: 10vh;
       width: 20px;
       height: 20px;
-      background-color: black;
-      border: 1px dashed red;
+      color: gray;
+      background-color: gray;
+      border: 1px dashed palevioletred;
       text-align: center;
       position: absolute;
       left: 0px;
@@ -74,9 +75,9 @@
     color: rgba(0,0,0,0);
     animation-name: back;
     animation-delay: 6s;
-    animation-duration: 120;
+    animation-duration: 120s;
     animation-fill-mode: forwards;
   }
 
-  a:link {color: white;}
+  a:link {color: white; text-decoration: none;}
   a:visited { color: white;}

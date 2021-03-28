@@ -3,3 +3,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    margin: 5vmax;
+    background-color: mistyrose;        font-family: 'Caveat', cursive;
+    font-size: 2em;
+}
+
+a:link {color: gray; text-decoration: none;}
+a:visited {color: dimgray;}
+a:hover {color: violet; font-size: 1.1em;}
+
+#some {font-weight: bold; font-size: 1.2em;}
+#no {margin: 10vmin;}
+#out {margin: 30vmin 30vmin;}
