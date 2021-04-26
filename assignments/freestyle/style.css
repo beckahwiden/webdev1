@@ -5,6 +5,43 @@
 }
 
 body {
-    background-color: cadetblue;
+    background-color: lightsteelblue;
     font-family:cursive
+}
+
+h1 { color: maroon; }
+
+.lorem {
+    position: absolute;
+    font-size: 10px;
+    text-align: justify;
+    padding: 1em;
+    margin: 2em;
+    max-width: 300px;
+    background-color: linen;
+    animation-name: loremove;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.box {
+    position: absolute;
+    background-color: orchid;
+    height: 1em;
+    width: 1em;
+    animation-name: boxmove;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes loremove {
+    0% {background-color: linen; left: 10%; top: 20%;}
+    100% {background-color: mistyrose; left: 40%; top: 25%;}
+}
+
+@keyframes boxmove {
+    from {left: 1%; top: 30%;}
+    to {left: 90%; top: 30%;}
 }
