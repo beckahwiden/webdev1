@@ -31,6 +31,13 @@ body {
     background-color: pink;
 }
 
+.bye {
+    position: fixed;
+    font-size: 12px;
+    bottom: 2em;
+    margin: 1em;
+}
+
 .box {
     position: absolute;
     background-color: gray;
@@ -38,6 +45,15 @@ body {
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover {
+    color: linen;
 }
 
 @keyframes loremove {
