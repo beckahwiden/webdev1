@@ -18,7 +18,7 @@ body {
     max-width: 300px;
     background-color: linen;
     animation-name: loremove;
-    animation-duration: 30s;
+    animation-duration: 60s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
@@ -34,17 +34,19 @@ body {
 .bye {
     position: fixed;
     font-size: 12px;
-    bottom: 2em;
+    top: 90%;
     margin: 1em;
 }
 
 .box {
     position: absolute;
-    background-color: gray;
     animation-name: boxmove;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+}
+img {
+    width: 30px;
 }
 
 a {
@@ -58,11 +60,15 @@ a:hover {
 
 @keyframes loremove {
     0% {left: 10%; top: 20%;}
-    100% {left: 40%; top: 20%;}
+    100% {left: 20%; top: 20%;}
 }
 
 @keyframes boxmove {
     0%  {left: 1%; top: 30%;}
+    10% {left: 5%; top: 30%;}
+    13% {left: 5%; top: 30%;}
+    15% {left: 5%; top: 30%;}
+    17% {left: 5%; top: 30%;}
     25% {left: 90%; top: 30%;}
     30% {left: 40%; top: 30%;}
     40% {left: 40%; top: 60%;}
