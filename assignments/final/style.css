@@ -26,6 +26,9 @@ a:hover { color:black; }
     text-align: center;
 }
 
+ul {
+    list-style-type: none;}
+
 .roster {
     display: grid;
     grid-template-columns: 1f 1f 1f;
