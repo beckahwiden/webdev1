@@ -54,9 +54,20 @@ ul {
     bottom: 2em;
 }
 
+.hs {width: 10vw;}
+
 .puck {
     width: 25px;
-    animation-name: puck;
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
 }
 
-.hs {width: 10vw;}
+@keyframes spin {
+    0% {
+      transform: rotateZ(0);
+    }
+    100% {
+      transform: rotateZ(360deg);
+    }
+  }
