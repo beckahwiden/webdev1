@@ -10,19 +10,21 @@ h1 {
     font-family: 'Teko', sans-serif;
 }
 
-a {text-decoration: none; 
-    color: red;}
+a {text-decoration: none; color: red;}
 a:hover { color:black; }
+
+.black {color:black;}
+.black:hover {color:red;}
 
 .intro {
     margin: 2em;
-    max-width: 300px;
+    max-width: 400px;
     text-align: justify;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .links {
-    max-width: 300px;
+    max-width: 400px;
     text-align: center;
 }
 
@@ -31,7 +33,7 @@ ul {
 
 .roster {
     display: grid;
-    grid-template-columns: 1f 1f 1f;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 10% auto;
     align-items: start;
 }
@@ -41,12 +43,7 @@ ul {
 .d { grid-column: 3;}
 
 
-.tl {
-    font-family: Arial, Helvetica, sans-serif;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    /* grid-template-rows: repeat(56, 1fr); */
-}
+.tl {font-family: Arial, Helvetica, sans-serif;}
 
 .back {
     position: fixed;
