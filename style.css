@@ -16,7 +16,9 @@ footer {
     text-align: right;
     color: hotpink;
     font-family: 'Cormorant Unicase', serif;
-    margin-right: 10vw;
+    position: fixed;
+    bottom: 1em;
+    left: 1em;
 }
 
 h1 {
